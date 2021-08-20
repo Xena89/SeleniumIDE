@@ -1,0 +1,214 @@
+{
+  "id": "21527f56-ef18-4db9-a473-9a6f00f98f9a",
+  "version": "2.0",
+  "name": "aeroflot",
+  "url": "https://trello.com/",
+  "tests": [{
+    "id": "e156d2eb-b5b4-4493-b2b6-21f835b6ae03",
+    "name": "trello",
+    "commands": [{
+      "id": "1d93a1ba-b401-4a1a-9257-944150285fdb",
+      "comment": "",
+      "command": "open",
+      "target": "https://trello.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac3824a1-b3c8-42a4-9ad7-b33ce5268988",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1299x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db389aba-825f-4f53-881d-a0ba7c925e4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Anmelden",
+      "targets": [
+        ["linkText=Anmelden", "linkText"],
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Anmelden')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Anmelden')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eabda8e2-f77f-42b2-b4b3-d4f19065a82d",
+      "comment": "",
+      "command": "click",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["name=user", "name"],
+        ["css=#user", "css:finder"],
+        ["xpath=//input[@id='user']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5caadbce-58b1-4dcd-9802-3ce610021464",
+      "comment": "",
+      "command": "type",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["name=user", "name"],
+        ["css=#user", "css:finder"],
+        ["xpath=//input[@id='user']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "quickusja89@hotmail.com"
+    }, {
+      "id": "c613ed25-8cb3-47d3-8350-52558d1eba15",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=user",
+      "targets": [
+        ["id=user", "id"],
+        ["name=user", "name"],
+        ["css=#user", "css:finder"],
+        ["xpath=//input[@id='user']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "806b6d1a-ed84-48ca-9629-33e68037cf4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1821943-c517-4889-8e77-0ec99834dc86",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "100989quick"
+    }, {
+      "id": "a68803ca-436c-41b4-98f3-dfc55e83ab46",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login']/div[2]/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "234cb3f2-3bb0-41a9-adb4-de7ada35b454",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.boards-page-board-section-list-item:nth-child(2) .board-tile-details-name > div",
+      "targets": [
+        ["css=.boards-page-board-section-list-item:nth-child(2) .board-tile-details-name > div", "css:finder"],
+        ["xpath=//div[@id='content']/div/div[2]/div/div/div/div/div[2]/div/div/div[2]/div[2]/ul/li[2]/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9249018e-dbb6-48ef-aaaa-9bfd7b15b186",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3L7haCtpIGF1G_ > .\\_2Hkk1T39xw4RMQ:nth-child(1) .sc-bdVaJa",
+      "targets": [
+        ["css=.\\_3L7haCtpIGF1G_ > .\\_2Hkk1T39xw4RMQ:nth-child(1) .sc-bdVaJa", "css:finder"],
+        ["xpath=//div[@id='header']/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6bffaa5-b606-4f0f-9eac-e664007fc46e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .M91aWYFMf7mrFf",
+      "targets": [
+        ["css=li:nth-child(1) .M91aWYFMf7mrFf", "css:finder"],
+        ["xpath=//button/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Доска представляет собой совокупность карточек, упорядоченных в списках. Используйте её для управления проектом, отслеживания или организации чего угодно.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c62ce5de-06cb-4a17-a02c-4514992ee4be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ldU5w4hl0WLLul",
+      "targets": [
+        ["css=.ldU5w4hl0WLLul", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='layer-manager-overlay']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6fa615-3d0c-4a68-a82c-d09bbbcf9d81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ldU5w4hl0WLLul",
+      "targets": [
+        ["css=.ldU5w4hl0WLLul", "css:finder"],
+        ["xpath=//input[@value='Новая доска']", "xpath:attributes"],
+        ["xpath=//div[@id='layer-manager-overlay']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d549ba-8a9d-45b6-98a6-e3418dfaed54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ldU5w4hl0WLLul",
+      "targets": [
+        ["css=.ldU5w4hl0WLLul", "css:finder"],
+        ["xpath=//input[@value='Новая доска']", "xpath:attributes"],
+        ["xpath=//div[@id='layer-manager-overlay']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5109c546-3eed-41fb-8739-d2989988d2bf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ldU5w4hl0WLLul",
+      "targets": [
+        ["css=.ldU5w4hl0WLLul", "css:finder"],
+        ["xpath=//input[@value='Новая доска']", "xpath:attributes"],
+        ["xpath=//div[@id='layer-manager-overlay']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Новая доска2"
+    }, {
+      "id": "1b5dda97-7fcc-4c3c-b06f-1d69eb860d4f",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Доски | Trello",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c8571ae3-202c-4cf2-9c85-160cef787575",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://id.atlassian.com/", "https://trello.com/"],
+  "plugins": []
+}
