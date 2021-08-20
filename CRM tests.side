@@ -49,6 +49,13 @@
       "targets": [],
       "value": "${KEY_ENTER}"
     }, {
+      "id": "8ab5c4d5-3fe2-4e01-a518-66ee08365d38",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Панель инструментов",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "d3d600cf-75ef-47ec-aa09-124224b9b1e0",
       "comment": "",
       "command": "mouseOver",
@@ -65,14 +72,8 @@
       "id": "a4e401ad-5555-43ad-b602-d80983e04635",
       "comment": "",
       "command": "click",
-      "target": "linkText=Все проекты",
-      "targets": [
-        ["linkText=Все проекты", "linkText"],
-        ["css=.manually-hidden > .first > a", "css:finder"],
-        ["xpath=//div[@id='main-menu']/ul/li[3]/ul/li[3]/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/project/')])[11]", "xpath:href"],
-        ["xpath=//li[3]/ul/li[3]/a", "xpath:position"]
-      ],
+      "target": "linkText=Мои проекты",
+      "targets": [],
       "value": ""
     }, {
       "id": "0d3de5a2-bfa4-4673-8bd7-1e5ee925442c",
@@ -101,7 +102,7 @@
         ["xpath=//form[@id='crm_project-uid-6115652403dbe']/div[2]/div[3]/div/div/div[2]/fieldset/div/div/div[2]/input", "xpath:idRelative"],
         ["xpath=//div/div/div[2]/input", "xpath:position"]
       ],
-      "value": "паорваапрапрп"
+      "value": "11122233344"
     }, {
       "id": "48a10762-2888-49a6-8470-4e8fd134e3d2",
       "comment": "",
@@ -199,6 +200,13 @@
       "target": "xpath=//div[text()='Проект сохранен']",
       "targets": [],
       "value": "30000"
+    }, {
+      "id": "924cd219-803c-4b0b-b133-dc2f85113c98",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//*[@id=\"breadcrumb\"]/ul/li[2]",
+      "targets": [],
+      "value": "Все проекты"
     }, {
       "id": "5a981664-f40e-48b4-becd-417014708af2",
       "comment": "",
